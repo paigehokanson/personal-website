@@ -49,7 +49,7 @@ export default function Projects() {
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-3 py-1 bg-background-light rounded-full text-sm">Next.js</span>
                 <span className="px-3 py-1 bg-background-light rounded-full text-sm">TypeScript</span>
-                <span className="px-3 py-1 bg-background-light rounded-full text-sm">PostgreSQL</span>
+                <span className="px-3 py-1 bg-background-light rounded-full text-sm">Supabase</span>
                 <span className="px-3 py-1 bg-background-light rounded-full text-sm">Bitcart</span>
               </div>
               <div className="flex gap-4">

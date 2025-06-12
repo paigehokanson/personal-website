@@ -14,10 +14,6 @@ A modern, professional portfolio website for Paige Hokanson, focused on cybersec
 - [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-## Getting Started
-
-
-
 ## Customization
 - Update your information in the components under `/components` (About, Projects, Contact, etc.)
 - Adjust theme colors in `tailwind.config.js`

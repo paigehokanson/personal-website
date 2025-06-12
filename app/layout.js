@@ -7,8 +7,8 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Paige Hokanson | Portfolio',
-  description: 'Professional portfolio showcasing my work and experience in software development.',
+  title: 'Paige Hokanson | Cybersecurity Incident Responder & Threat Expert',
+  description: 'GIAC-certified Cybersecurity Incident Responder specializing in threat detection, rapid response, and Splunk SIEM. Protecting cloud and on-premises systems.',
   viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: '/favicon.ico',

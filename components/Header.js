@@ -37,8 +37,8 @@ export default function Header() {
                   activeDropdown === 'projects' ? 'opacity-100 visible' : 'opacity-0 invisible'
                 }`}
               >
-                <Link href="#project-1" className="block px-4 py-2 hover:bg-background">Full-Stack E-Commerce Application</Link>
-                <Link href="#project-2" className="block px-4 py-2 hover:bg-background">Google Cloud Honeypot & Threat Visualization</Link>
+                <Link href="#project-1" className="block px-4 py-2 hover:bg-background">Google Cloud Honeypot & Threat Visualization</Link>
+                <Link href="#project-2" className="block px-4 py-2 hover:bg-background">Full-Stack E-Commerce Application</Link>
               </div>
             </div>
             
@@ -112,8 +112,8 @@ export default function Header() {
         {/* Mobile menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-background-light rounded-lg mt-2 py-2">
-            <Link href="#project-1" className="block px-4 py-2 hover:bg-background">Project 1</Link>
-            <Link href="#project-2" className="block px-4 py-2 hover:bg-background">Project 2</Link>
+            <Link href="#project-1" className="block px-4 py-2 hover:bg-background">Google Cloud Honeypot & Threat Visualization</Link>
+            <Link href="#project-2" className="block px-4 py-2 hover:bg-background">Full-Stack E-Commerce Application</Link>
             <Link href="#about" className="block px-4 py-2 hover:bg-background">About</Link>
             <Link href="#contact" className="block px-4 py-2 hover:bg-background">Contact</Link>
             <div className="px-4 py-2">
