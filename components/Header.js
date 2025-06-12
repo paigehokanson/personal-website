@@ -91,6 +91,7 @@ export default function Header() {
             
             <Link href="#about" className="nav-link">About</Link>
             <Link href="#contact" className="nav-link">Contact</Link>
+            <Link href="/kanban" className="nav-link">Kanban</Link>
             <a href="/resume.pdf" className="btn-primary">Download Resume</a>
           </div>
 
@@ -116,6 +117,7 @@ export default function Header() {
             <Link href="#project-2" className="block px-4 py-2 hover:bg-background">Full-Stack E-Commerce Application</Link>
             <Link href="#about" className="block px-4 py-2 hover:bg-background">About</Link>
             <Link href="#contact" className="block px-4 py-2 hover:bg-background">Contact</Link>
+            <Link href="/kanban" className="block px-4 py-2 hover:bg-background">Kanban</Link>
             <div className="px-4 py-2">
               <a href="/resume.pdf" className="btn-primary block text-center">Download Resume</a>
             </div>
