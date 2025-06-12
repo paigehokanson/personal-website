@@ -1,24 +1,21 @@
-import Header from '../components/Header'
+'use client'
+
 import Hero from '../components/Hero'
 import About from '../components/About'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer'
-
-export const metadata = {
-  title: 'Home | Paige Hokanson',
-  description: 'Welcome to my portfolio website showcasing my work and experience in software development.',
-}
+import AnimatedGraphBackground from '../components/AnimatedGraphBackground'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </main>
+    <div className="min-h-screen relative">
+      <AnimatedGraphBackground />
+      <div className="relative z-10">
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
+    </div>
   )
 } 
